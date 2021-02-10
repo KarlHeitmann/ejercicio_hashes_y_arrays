@@ -1,7 +1,9 @@
 hospital = {
   "nombre" => "Clínica San José",
-  "latitud" => "9.934919",
-  "longitud" => "-84.097321",
+  "gps" => {
+    "latitud" => "9.934919",
+    "longitud" => "-84.097321",
+  },
   "medicos" => [
     {
       "nombre" => "Karl Heitmann",
@@ -54,6 +56,7 @@ hospital = {
 }
 
 puts "Nombre del hospita: #{hospital["nombre"]}"
+# TAREA: corregir la siguiente linea
 puts "Latitud y longitud del hospital: #{hospital["latitud"]} / #{hospital["longitud"]}}"
 
 puts "Arreglo / Lista de todos los médicos:"
